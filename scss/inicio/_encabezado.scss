@@ -1,0 +1,31 @@
+
+.encabezado {
+    
+        background-color: rgb(177, 240, 83);
+        color: blue;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+       h1{
+            display: inline-block;
+        }
+       a {
+            text-decoration: none;
+            
+            
+        }  
+       
+        nav{
+            width: 60%;
+        }
+        ul{
+            width: fit-content;
+            margin-left: auto;
+        }
+        
+       li{
+            margin-right: 20px;
+        }
+}

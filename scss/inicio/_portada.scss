@@ -1,0 +1,31 @@
+.portada{
+    width: 100vw;
+    height: 60vh ;
+    background-color: aqua;//aca va una imagen pero no me cargo //
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  .text__portada{
+    text-align: center;
+    color: rgb(57, 78, 14);
+   
+    
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+   h2{
+     font-size: 2rem;
+ }
+  p{
+     font-size: 3rem;
+ }
+
+ .beneficios{
+    font-size: 1.5rem;
+    background-color: rgba(127, 255, 212, 0.171);
+    text-align: center;
+    padding: 20px 20px;
+ }
+}
+
+
