@@ -1,0 +1,16 @@
+@mixin fontSIze($size, $weight){
+    font-size: $size;
+    font-weight: $weight;
+}
+
+.letrapequena{
+    @include fontSIze(1rem, 100 );
+}
+
+.letramediana{
+    @include fontSIze(2rem, 500 );
+}
+
+.letragrande{
+    @include fontSIze(4rem, 700 );
+}

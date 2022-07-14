@@ -81,4 +81,96 @@
   justify-content: space-around;
 }
 
+.boton, .botonVerde, .botonRojo {
+  background-color: purple;
+  text-align: center;
+  color: pink;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.boton:hover, .botonVerde:hover, .botonRojo:hover {
+  filter: opacity(85%);
+}
+
+.botonRojo {
+  background-color: red;
+  color: blue;
+}
+
+.botonVerde {
+  background-color: rgb(255, 0, 157);
+  color: rgb(0, 255, 242);
+}
+
+.letrapequena {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.letramediana {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.letragrande {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.bi-instagram {
+  color: rgb(233, 10, 222);
+}
+
+.col-1 {
+  width: 1%;
+}
+
+.col-2 {
+  width: 2%;
+}
+
+.col-3 {
+  width: 3%;
+}
+
+.col-4 {
+  width: 4%;
+}
+
+.col-5 {
+  width: 5%;
+}
+
+.col-6 {
+  width: 6%;
+}
+
+.col-7 {
+  width: 7%;
+}
+
+.col-8 {
+  width: 8%;
+}
+
+.col-9 {
+  width: 9%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.colorActual {
+  color: yellow;
+}
+
+.colorActual {
+  color: green;
+}
+
+.colorActual {
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

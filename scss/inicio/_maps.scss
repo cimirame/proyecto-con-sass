@@ -1,0 +1,27 @@
+$redes:(
+    instagram: rgb(233, 10, 222),
+    Facebook:blue,
+);
+
+.bi-instagram{
+    color: map-get($map: $redes , $key:instagram );
+}
+
+.bi-facebook {
+    color: map-get($map: $redes , $key:facebook  );
+}
+
+@for $i from 1 through 10 {
+    .col-#{$i}{
+        width: 1% * $i;
+    }
+}
+
+@each $colorActual in yellow, green, black {
+    .#{"" +colorActual} {
+        color: #{ $colorActual};
+    }
+}
+
+
+
